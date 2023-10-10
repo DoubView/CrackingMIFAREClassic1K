@@ -1,26 +1,15 @@
 Crackeo de Claves Privadas de Tarjetas Mifare Classic 1K
 
-Descripción:
-
 Este repositorio alberga una prueba de concepto que demuestra la vulnerabilidad de las tarjetas Mifare Classic 1K (en concreto, las tarjetas de transporte público Renfe&Tú) y cómo es posible crackear sus claves privadas. El proyecto se basa en mi investigación y experimentación en el campo de la ciberseguridad, y tiene como objetivo ilustrar las implicaciones de seguridad asociadas con estas tarjetas ampliamente utilizadas.
-
 El objetivo principal de este proyecto es aumentar la conciencia sobre la importancia de la seguridad en sistemas de acceso y autenticación que dependen de tarjetas Mifare Classic 1K. También se pretende fomentar la discusión sobre posibles soluciones y mejores prácticas para mitigar estas vulnerabilidades.
 
 Nota Legal:
 
 Este proyecto se realiza con fines educativos y de investigación. No se alienta ni respalda ningún uso ilegal o malicioso de esta información. Los usuarios deben cumplir con todas las leyes y regulaciones aplicables en su jurisdicción.
 
-Requisitos:
+Herramientas utilizadas:
 
-Lector NFC ACR122U
-Tarjetas Mifare Classic 1K para pruebas.
-Aplicación móvil MIFARE Classic Tools.
-mfoc software.
-
-Instrucciones:
-
-Puedes encontrar instrucciones detalladas sobre cómo llevar a cabo la prueba de concepto en la sección de Documentación de este repositorio.
-
-Documentación:
-
-Visita la carpeta Documentación para obtener información detallada sobre la metodología utilizada, los resultados de la prueba y las consideraciones éticas.
+- Lector NFC ACR122U.
+- Tarjetas Mifare Classic 1K para pruebas.
+- Aplicación móvil MIFARE Classic Tools.
+- mfoc software.
