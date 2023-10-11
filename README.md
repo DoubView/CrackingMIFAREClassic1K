@@ -23,14 +23,16 @@ Nota Legal:
 
 La tarjeta escogida para llevar a cabo la explotación es la tarjeta de trasnporte público recargable Renfe&Tú. 
 
-<img src="images/Renfe%26Tu.png" alt="Tarjeta Renfe&Tú" width="400px"> <img src="images/Renfe%26TuFront.png" alt="Tarjeta Renfe&Tú" width="400px">
+<img src="images/Renfe%26Tu.png" alt="Tarjeta Renfe&Tú" width="475px">
 
 Para iniciar la lectura de la memoria debemos pulsar en "LEER ETIQUETA". En el menú de lectura, tenemos que seleccionar un diccionario de claves. En este caso, seleccionaremos los diccionarios por defecto de la aplicación.
 
-<img src="images/MIFAREClassicTool.jpeg" alt="APP Mifare Classic Tools" width="400px"> <img src="images/Selección%20de%20diccionario%20MCT.jpeg" alt="Selección de diccionario" width="400px">
+<img src="images/MIFAREClassicTool.jpeg" alt="APP Mifare Classic Tools" width="200px"> <img src="images/Selección%20de%20diccionario%20MCT.jpeg" alt="Selección de diccionario" width="200px">
 
 Como podemos ver en la siguiente imagen, la aplicación ha conseguido obtener una clave A, por lo que seremos capaces de acceder a la lectura del sector 2. 
 
 <img src="images/Lectura.MCT.png" alt="Lectura sector 2" width="475px">
 
+Al haber obtenido una clave A válida podemos lanzar ataques "Hardnested" para ir obteniendo las claves A de todos los sectores. Para ello, utilizaremos la herramienta "mfoc", a la que le indicaremos esta clave que hemos obtenido con el flag -k.
 
+<img src="images/Mfoc%20hardnested%20-k.png" alt="Hardnesting Attack" width="475px">
