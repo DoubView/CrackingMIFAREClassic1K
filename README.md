@@ -36,3 +36,9 @@ Como podemos ver en la siguiente imagen, la aplicación ha conseguido obtener un
 Al haber obtenido una clave A válida podemos lanzar ataques "Hardnested" para ir obteniendo las claves A de todos los sectores. Para ello, utilizaremos la herramienta "mfoc", a la que le indicaremos esta clave que hemos obtenido con el flag -k.
 
 <img src="images/Mfoc%20hardnested%20-k.png" alt="Hardnesting Attack" width="475px">
+
+La herramienta indica que la clave ha sido válida para autenticarse en el sector 2 pero no finaliza. Mfoc arranca otra vez automáticamente para lanzar ataques consecutivos y conseguir claves hasta que la detengamos manualmente.
+
+<img src="images/Mfoc%20hardnested%202.png" alt="Hardnesting Attack" width="475px">
+
+Como se observa en la ilustración anterior, mfoc se ha iniciado de nuevo automáticamente y ha conseguido obtener otra clave A.
