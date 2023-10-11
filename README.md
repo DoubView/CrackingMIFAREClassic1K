@@ -21,7 +21,7 @@ Nota Legal:
 #
 # PRUEBA DE CONCEPTO ##
 
-LA tarjeta escogida para llevar a cabo la explotación es la tarjeta de trasnporte público recargable Renfe&Tú. 
+La tarjeta escogida para llevar a cabo la explotación es la tarjeta de trasnporte público recargable Renfe&Tú. 
 
 <img src="images/Renfe%26Tu.png" alt="Tarjeta Renfe&Tú" width="475px">
 
