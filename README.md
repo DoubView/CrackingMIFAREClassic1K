@@ -51,5 +51,5 @@ Como se observa en la ilustración anterior, mfoc se ha iniciado de nuevo autom�
 
 Una vez la herramienta ha conseguido todas las claves, podremos guardarlas en un fichero y pasarlas a la apliación MIFARE Classic Tool para que la utilice como diccionario y así poder leer los datos de la tarjeta de manera rápida desde la aplicación.
 
-<img src="Lectura%20completa.png" alt="Lectura con fichero de diccionario de claves" width="475px">
+<img src="images/Lectura%20completa.png" alt="Lectura con fichero de diccionario de claves" width="475px">
 
