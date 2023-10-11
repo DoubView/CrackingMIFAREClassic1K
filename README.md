@@ -23,4 +23,4 @@ Nota Legal:
 
 Este ataque se ha comenzado intentando leer la información de los sectores de la tarjeta en cuestión con la aplicación móvil de Mifare Classic Tools, que incorpora por defecto un diccionario de claves.
 
-<img src="/main/MIFAREClassicTool.jpeg" alt="Mifare Classic Tools" width="475px">
+<img src="main/MIFAREClassicTool.jpeg" alt="Mifare Classic Tools" width="475px">
