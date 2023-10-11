@@ -41,6 +41,6 @@ La herramienta indica que la clave ha sido válida para autenticarse en el secto
 
 <img src="images/Mfoc%20hardnested%202.png" alt="Hardnesting Attack" width="475px">
 
-Como se observa en la ilustración anterior, mfoc se ha iniciado de nuevo automáticamente y ha conseguido obtener otra clave A, en este caso del sector 1.
+Como se observa en la ilustración anterior, mfoc se ha iniciado de nuevo automáticamente y ha conseguido obtener otra clave A, en este caso del sector 0.
 
 ***Por lo general (al menos en mi caso) necesita alrededor de 10-15 minutos para obtener la clave de cada sector, pero también ha dejado de funcionar en numerosas ocasiones, por lo que el proceso es posible que se demore un extra de tiempo.*** 
