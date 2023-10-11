@@ -23,11 +23,11 @@ Nota Legal:
 
 La tarjeta escogida para llevar a cabo la explotación es la tarjeta de trasnporte público recargable Renfe&Tú. 
 
-<img src="images/Renfe%26Tu.png" alt="Tarjeta Renfe&Tú" width="475px">
+<img src="images/Renfe%26Tu.png" alt="Tarjeta Renfe&Tú" width="400px"> <img src="images/Renfe%26TuFront.png" alt="Tarjeta Renfe&Tú" width="400px">
 
 Para iniciar la lectura de la memoria debemos pulsar en "LEER ETIQUETA". En el menú de lectura, tenemos que seleccionar un diccionario de claves. En este caso, seleccionaremos los diccionarios por defecto de la aplicación.
 
-<img src="images/MIFAREClassicTool.jpeg" alt="APP Mifare Classic Tools" width="200px"> <img src="images/Selección%20de%20diccionario%20MCT.jpeg" alt="Selección de diccionario" width="200px">
+<img src="images/MIFAREClassicTool.jpeg" alt="APP Mifare Classic Tools" width="400px"> <img src="images/Selección%20de%20diccionario%20MCT.jpeg" alt="Selección de diccionario" width="400px">
 
 Como podemos ver en la siguiente imagen, la aplicación ha conseguido obtener una clave A, por lo que seremos capaces de acceder a la lectura del sector 2. 
 
