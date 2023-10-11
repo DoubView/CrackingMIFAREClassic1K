@@ -50,3 +50,5 @@ Este ataque se ha comenzado intentando leer la información de los sectores de l
 Para iniciar la lectura de la memoria debemos pulsar en "LEER ETIQUETA". En el menú de lectura, tenemos que seleccionar un diccionario de claves. En este caso, seleccionaremos los diccionarios por defecto de la aplicación.
 
 <img src="images/Renfe%26Tu.png" alt="APP Mifare Classic Tools" width="475px">
+
+
