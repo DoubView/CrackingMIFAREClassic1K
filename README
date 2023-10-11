@@ -7,9 +7,9 @@ Nota Legal:
 
 Este proyecto se realiza con fines educativos y de investigación. No se alienta ni respalda ningún uso ilegal o malicioso de esta información. Los usuarios deben cumplir con todas las leyes y regulaciones aplicables en su jurisdicción.
 
-Herramientas utilizadas:
+Herramientas empleadas:
 
 - Lector NFC ACR122U.
 - Tarjetas Mifare Classic 1K para pruebas.
 - Aplicación móvil MIFARE Classic Tools.
-- mfoc software.
+- mfoc linux software.
