@@ -45,3 +45,8 @@ Como se observa en la ilustración anterior, mfoc se ha iniciado de nuevo autom�
 ##
 ***Por lo general (al menos en mi caso) necesita alrededor de 10-15 minutos para obtener la clave de cada sector, pero también ha dejado de funcionar en numerosas ocasiones, por lo que el proceso es posible que se demore un extra de tiempo.*** 
 ##
+#
+<img src="images/Claves.png" alt="Extracción de claves" width="475px">
+
+
+Una vez la herramienta ha conseguido todas las claves, podremos guardarlas en un fichero y pasarlas a la apliación MIFARE Classic Tool para que la utilice como diccionario y así poder leer los datos de la tarjeta de manera rápida desde la aplicación.
