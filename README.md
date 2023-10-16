@@ -48,9 +48,32 @@ Como se observa en la ilustración anterior, mfoc se ha iniciado de nuevo autom�
 #
 <img src="images/Claves.png" alt="Extracción de claves" width="475px">
 
-
 Una vez la herramienta ha conseguido todas las claves, podremos guardarlas en un fichero y pasarlas a la apliación MIFARE Classic Tool para que la utilice como diccionario y así poder leer los datos de la tarjeta de manera rápida desde la aplicación.
 
 <img src="images/Lectura%20completa.png" alt="Lectura con fichero de diccionario de claves" width="525
 px">
 
+#
+# IMPLICACIONES DE SEGURIDAD ##
+
+## Implicaciones de Seguridad
+
+El propósito de este proyecto es educativo y de investigación. Sin embargo, es importante comprender las implicaciones de seguridad asociadas con el crackeo de las tarjetas Mifare Classic 1K, específicamente las tarjetas de transporte público Renfe&Tú. A continuación, se detallan algunas consideraciones de seguridad relevantes:
+
+1. **Fraude en el Transporte Público**: Este proyecto ilustra cómo un atacante podría utilizar tarjetas crackeadas para eludir los sistemas de control de acceso en el transporte público. Esto podría tener implicaciones financieras para la empresa de transporte.
+
+2. **Posible Acceso No Autorizado**: Si las tarjetas Mifare Classic 1K se utilizan para el acceso a áreas sensibles o sistemas críticos, el crackeo de estas tarjetas podría permitir a un atacante ingresar a áreas restringidas sin autorización, lo que plantea un riesgo para la seguridad.
+
+3. **Suplantación de Identidad**: Los atacantes podrían suplantar la identidad de usuarios legítimos al utilizar tarjetas crackeadas. Esto podría dar lugar a actividades fraudulentas en nombre de usuarios legítimos.
+
+4. **Extorsión Potencial**: Los atacantes podrían utilizar información comprometida o datos de tarjetas crackeadas como palanca para extorsionar a la organización, solicitando un rescate a cambio de no explotar la información.
+
+5. **Daño a la Reputación**: La divulgación de un incidente de seguridad relacionado con las tarjetas Mifare Classic 1K podría dañar la reputación de la empresa y la confianza de los usuarios.
+
+6. **Riesgo de Litigios**: Los usuarios afectados podrían emprender acciones legales si se demuestra que su información o seguridad se vieron comprometidas debido al crackeo de tarjetas, lo que podría resultar en litigios.
+
+7. **Pérdida de Clientes**: La pérdida de confianza de los usuarios en la seguridad de los sistemas de acceso podría llevar a la pérdida de clientes y a una disminución de los ingresos.
+
+8. **Costos de Reemplazo y Actualización**: La organización podría enfrentar costos relacionados con el reemplazo de las tarjetas Mifare Classic 1K y la actualización de sistemas de seguridad para abordar la vulnerabilidad.
+
+Es fundamental entender que este proyecto se realiza con fines educativos y de investigación. No se promueve ningún uso ilegal o malicioso de la información proporcionada. Los usuarios deben cumplir con todas las leyes y regulaciones aplicables en su jurisdicción.
