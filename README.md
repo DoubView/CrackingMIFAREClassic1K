@@ -120,7 +120,7 @@ Dado que esta vulnerabilidad es bien conocida, se recomienda no utilizar tarjeta
 
 La tarjeta escogida para llevar a cabo la explotación es la tarjeta de trasnporte público recargable. 
 
-<img src="images/Renfe%26Tu.png" alt="Tarjeta Renfe&Tú" width="400px"> <img src="images/Renfe%26TuFront.png" alt="Tarjeta Renfe&Tú" width="400px">
+<img src="images/NFC%20Card.png" alt="Tarjeta Mifare Classic 1K" width="400px">
 
 Para iniciar la lectura de la memoria debemos pulsar en "LEER ETIQUETA". En el menú de lectura, tenemos que seleccionar un diccionario de claves. En este caso, seleccionaremos los diccionarios por defecto de la aplicación.
 
