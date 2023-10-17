@@ -26,7 +26,7 @@ Se organiza en sectores, bloques y bytes.
 - Bloques: Cada sector consta de 4 bloques de datos numerados del 0 al 3. Cada bloque tiene una capacidad de almacenamiento de 16 bytes.
 - Bytes en Bloques: Cada bloque contiene 16 bytes de datos, que se utilizan para almacenar información, como identificadores, claves de acceso u otros datos relevantes.
 
-Además, la información está protegida por una clave A (normalmente para la lectura de la memoria) y una clave B (normalmente para la escritura y la modificación de permisos. Si intentamos leet la tarjeta sin conocer las claves, no conseguiremos acceder a leer la información.
+Además, la información está protegida por una clave A (normalmente para la lectura de la memoria) y una clave B (normalmente para la escritura y la modificación de permisos. Si intentamos leet la tarjeta sin conocer las claves correctas, no conseguiremos acceder a leer la información.
 #
 ```
 ┌──(kali㉿kali)-[~]
@@ -85,6 +85,27 @@ mfoc: ERROR:
 No sector encrypted with the default key has been found, exiting..
 
 ```
+#
+# HARDNESTED ATTACK ##
+### Descripción Técnica
+
+Una de las vulnerabilidades más significativas en las tarjetas Mifare Classic 1K está relacionada con su generador de números pseudoaleatorios (PRNG, por sus siglas en inglés). El PRNG se utiliza para generar números aleatorios que se emplean en procesos de autenticación y cifrado de datos en la tarjeta. Sin embargo, en las tarjetas Mifare Classic 1K, el PRNG se implementó de una manera débil y predecible.
+
+#### Debilidad del Generador de Números Pseudoaleatorios
+
+La debilidad fundamental del generador de números pseudoaleatorios en Mifare Classic 1K radica en su predictibilidad. Esto significa que, en lugar de generar números verdaderamente aleatorios, el PRNG produce secuencias de números que son predecibles, lo que facilita a un atacante determinar qué número se generará a continuación.
+
+#### Ataque de Hardnested
+
+La vulnerabilidad del generador PRNG es especialmente explotada en el ataque Hardnested, como mencionado previamente. Durante este ataque, un atacante puede realizar múltiples intentos de autenticación y cifrado al explotar la predictibilidad del PRNG. Al conocer cómo se generarán los números aleatorios, el atacante puede anticipar los valores utilizados en el proceso de autenticación.
+
+#### Consecuencias de la Vulnerabilidad
+
+Esta vulnerabilidad del generador PRNG en Mifare Classic 1K tiene graves consecuencias en términos de seguridad. Los atacantes pueden utilizar este conocimiento para realizar ataques exitosos de fuerza bruta en las claves de acceso, lo que les permite acceder y modificar la información almacenada en las tarjetas Mifare Classic 1K.
+
+### Soluciones y Recomendaciones
+
+Dado que esta vulnerabilidad es bien conocida, se recomienda no utilizar tarjetas Mifare Classic 1K en aplicaciones de seguridad críticas. En su lugar, se deben considerar alternativas más seguras, como tarjetas Mifare DESFire EV1 o EV2, que ofrecen un cifrado más robusto y un generador de números pseudoaleatorios más seguro.
 
 #
 # PRUEBA DE CONCEPTO ##
@@ -116,7 +137,7 @@ Como se observa en la ilustración anterior, mfoc se ha iniciado de nuevo autom�
 #
 <img src="images/Claves.png" alt="Extracción de claves" width="475px">
 
-Una vez la herramienta ha conseguido todas las claves, podremos guardarlas en un fichero y pasarlas a la apliación MIFARE Classic Tool para que la utilice como diccionario y así poder leer los datos de la tarjeta de manera rápida desde la aplicación.
+Una vez la herramienta ha conseguido todas las claves A, podremos guardarlas en un fichero y pasarlas a la apliación MIFARE Classic Tool para que la utilice como diccionario y así poder leer los datos de la tarjeta de manera rápida desde la aplicación.
 
 <img src="images/Lectura%20completa.png" alt="Lectura con fichero de diccionario de claves" width="525
 px">
