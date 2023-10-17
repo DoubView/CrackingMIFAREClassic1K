@@ -83,6 +83,7 @@ Sector 15 - Unknown Key A               Unknown Key B
 mfoc: ERROR: 
 
 No sector encrypted with the default key has been found, exiting..
+
 ```
 
 #
