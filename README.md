@@ -1,5 +1,13 @@
 # README
 
+## Índice
+1. [Crackeo de Claves Privadas de Tarjetas Mifare Classic 1K](#crackeo-de-claves-privadas-de-tarjetas-mifare-classic-1k)
+2. [Objetivo](#objetivo)
+3. [Herramientas Empleadas](#herramientas-empleadas)
+4. [Estructura Mifare Classic 1K](#estructura-mifare-classic-1k)
+5. [Prueba de Concepto](#prueba-de-concepto)
+6. [Implicaciones de Seguridad](#implicaciones-de-seguridad)
+
 ## Crackeo de Claves Privadas de Tarjetas Mifare Classic 1K
 
 Este repositorio alberga una prueba de concepto que demuestra la vulnerabilidad de las tarjetas Mifare Classic 1K (en concreto, las tarjetas de transporte público Renfe&Tú) y cómo es posible crackear sus claves privadas. El proyecto se basa en mi investigación y experimentación en el campo de la ciberseguridad, y tiene como objetivo ilustrar las implicaciones de seguridad asociadas con estas tarjetas ampliamente utilizadas.
