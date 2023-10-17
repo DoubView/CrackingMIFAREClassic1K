@@ -27,6 +27,7 @@ Se organiza en sectores, bloques y bytes.
 - Bytes en Bloques: Cada bloque contiene 16 bytes de datos, que se utilizan para almacenar información, como identificadores, claves de acceso u otros datos relevantes.
 
 Además, la información está protegida por una clave A (normalmente para la lectura de la memoria) y una clave B (normalmente para la escritura y la modificación de permisos. Si intentamos leet la tarjeta sin conocer las claves, no conseguiremos acceder a leer la información.
+#
 ┌──(kali㉿kali)-[~]
 └─$ mfoc -O renfe
 ATS 0C0C757780|02C1052130
