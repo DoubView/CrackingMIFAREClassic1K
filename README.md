@@ -118,7 +118,7 @@ Dado que esta vulnerabilidad es bien conocida, se recomienda no utilizar tarjeta
 #
 # PRUEBA DE CONCEPTO ##
 
-La tarjeta escogida para llevar a cabo la explotación es la tarjeta de trasnporte público recargable. 
+La tarjeta escogida para llevar a cabo la explotación es una tarjeta de trasnporte público recargable. 
 
 <img src="images/NFC%20Card.png" alt="Tarjeta Mifare Classic 1K" width="400px">
 
