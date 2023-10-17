@@ -10,7 +10,7 @@
 
 ## Crackeo de Claves Privadas de Tarjetas Mifare Classic 1K
 
-Este repositorio alberga una prueba de concepto que demuestra la vulnerabilidad de las tarjetas Mifare Classic 1K (en concreto, las tarjetas de transporte público Renfe&Tú) y cómo es posible crackear sus claves privadas. El proyecto se basa en mi investigación y experimentación en el campo de la ciberseguridad, y tiene como objetivo ilustrar las implicaciones de seguridad asociadas con estas tarjetas ampliamente utilizadas.
+Este repositorio alberga una prueba de concepto que demuestra la vulnerabilidad de las tarjetas recargables de transporte Mifare Classic 1K y cómo es posible crackear sus claves privadas. El proyecto se basa en mi investigación y experimentación en el campo de la ciberseguridad, y tiene como objetivo ilustrar las implicaciones de seguridad asociadas con estas tarjetas ampliamente utilizadas.
 #
 ## Objetivo
 
@@ -38,7 +38,7 @@ Además, la información está protegida por una clave A (normalmente para la le
 #
 ```
 ┌──(kali㉿kali)-[~]
-└─$ mfoc -O renfe
+└─$ mfoc -O trasnporte
 ATS 0C0C757780|02C1052130
 Found Mifare Classic 1k tag
 ISO/IEC 14443A (106 kbps) target:
@@ -118,7 +118,7 @@ Dado que esta vulnerabilidad es bien conocida, se recomienda no utilizar tarjeta
 #
 # PRUEBA DE CONCEPTO ##
 
-La tarjeta escogida para llevar a cabo la explotación es la tarjeta de trasnporte público recargable Renfe&Tú. 
+La tarjeta escogida para llevar a cabo la explotación es la tarjeta de trasnporte público recargable. 
 
 <img src="images/Renfe%26Tu.png" alt="Tarjeta Renfe&Tú" width="400px"> <img src="images/Renfe%26TuFront.png" alt="Tarjeta Renfe&Tú" width="400px">
 
@@ -155,7 +155,7 @@ px">
 
 ## Implicaciones de Seguridad
 
-El propósito de este proyecto es educativo y de investigación. Sin embargo, es importante comprender las implicaciones de seguridad asociadas con el crackeo de las tarjetas Mifare Classic 1K, específicamente las tarjetas de transporte público Renfe&Tú. A continuación, se detallan algunas consideraciones de seguridad relevantes:
+El propósito de este proyecto es educativo y de investigación. Sin embargo, es importante comprender las implicaciones de seguridad asociadas con el crackeo de las tarjetas Mifare Classic 1K. A continuación, se detallan algunas consideraciones de seguridad relevantes:
 
 1. **Fraude en el Transporte Público**: Este proyecto ilustra cómo un atacante podría utilizar tarjetas crackeadas para eludir los sistemas de control de acceso en el transporte público. Esto podría tener implicaciones financieras para la empresa de transporte.
 
