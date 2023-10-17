@@ -38,7 +38,7 @@ Además, la información está protegida por una clave A (normalmente para la le
 #
 ```
 ┌──(kali㉿kali)-[~]
-└─$ mfoc -O trasnporte
+└─$ mfoc -O transporte
 ATS 0C0C757780|02C1052130
 Found Mifare Classic 1k tag
 ISO/IEC 14443A (106 kbps) target:
