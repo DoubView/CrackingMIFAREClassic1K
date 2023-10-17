@@ -26,6 +26,62 @@ Se organiza en sectores, bloques y bytes.
 - Bloques: Cada sector consta de 4 bloques de datos numerados del 0 al 3. Cada bloque tiene una capacidad de almacenamiento de 16 bytes.
 - Bytes en Bloques: Cada bloque contiene 16 bytes de datos, que se utilizan para almacenar información, como identificadores, claves de acceso u otros datos relevantes.
 
+Además, la información está protegida por una clave A (normalmente para la lectura de la memoria) y una clave B (normalmente para la escritura y la modificación de permisos. Si intentamos leet la tarjeta sin conocer las claves, no conseguiremos acceder a leer la información.
+┌──(kali㉿kali)-[~]
+└─$ mfoc -O renfe
+ATS 0C0C757780|02C1052130
+Found Mifare Classic 1k tag
+ISO/IEC 14443A (106 kbps) target:
+    ATQA (SENS_RES): 00  04  
+* UID size: single
+* bit frame anticollision supported
+       UID (NFCID1): 1e  7e  0f  03  
+      SAK (SEL_RES): 08  
+* Not compliant with ISO/IEC 14443-4
+* Not compliant with ISO/IEC 18092
+
+Fingerprinting based on MIFARE type Identification Procedure:
+* MIFARE Classic 1K
+* MIFARE Plus (4 Byte UID or 4 Byte RID) 2K, Security level 1
+* SmartMX with MIFARE 1K emulation
+Other possible matches based on ATQA & SAK values:
+
+Try to authenticate to all sectors with default keys...
+Symbols: '.' no key found, '/' A key found, '\' B key found, 'x' both keys found
+[Key: ffffffffffff] -> [................]
+[Key: a0a1a2a3a4a5] -> [................]
+[Key: d3f7d3f7d3f7] -> [................]
+[Key: 000000000000] -> [................]
+[Key: b0b1b2b3b4b5] -> [................]
+[Key: 4d3a99c351dd] -> [................]
+[Key: 1a982c7e459a] -> [................]
+[Key: aabbccddeeff] -> [................]
+[Key: 714c5c886e97] -> [................]
+[Key: 587ee5f9350f] -> [................]
+[Key: a0478cc39091] -> [................]
+[Key: 533cb6c723f6] -> [................]
+[Key: 8fd0a4f256e9] -> [................]
+
+Sector 00 - Unknown Key A               Unknown Key B
+Sector 01 - Unknown Key A               Unknown Key B
+Sector 02 - Unknown Key A               Unknown Key B
+Sector 03 - Unknown Key A               Unknown Key B
+Sector 04 - Unknown Key A               Unknown Key B
+Sector 05 - Unknown Key A               Unknown Key B
+Sector 06 - Unknown Key A               Unknown Key B
+Sector 07 - Unknown Key A               Unknown Key B
+Sector 08 - Unknown Key A               Unknown Key B
+Sector 09 - Unknown Key A               Unknown Key B
+Sector 10 - Unknown Key A               Unknown Key B
+Sector 11 - Unknown Key A               Unknown Key B
+Sector 12 - Unknown Key A               Unknown Key B
+Sector 13 - Unknown Key A               Unknown Key B
+Sector 14 - Unknown Key A               Unknown Key B
+Sector 15 - Unknown Key A               Unknown Key B
+mfoc: ERROR: 
+
+No sector encrypted with the default key has been found, exiting..
+
 
 #
 # PRUEBA DE CONCEPTO ##
