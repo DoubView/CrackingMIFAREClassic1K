@@ -19,6 +19,15 @@ Nota Legal:
 - Aplicación móvil MIFARE Classic Tools.
 - mfoc linux software.
 #
+# ESTRUCTURA MIFARE CLASSIC 1K ##
+
+Se organiza en sectores, bloques y bytes.
+- Sectores: La tarjeta Mifare Classic 1K se divide en 16 sectores. Cada sector tiene un número de identificación único y se utiliza para almacenar datos específicos.
+- Bloques: Cada sector consta de 4 bloques de datos numerados del 0 al 3. Cada bloque tiene una capacidad de almacenamiento de 16 bytes.
+- Bytes en Bloques: Cada bloque contiene 16 bytes de datos, que se utilizan para almacenar información, como identificadores, claves de acceso u otros datos relevantes.
+
+
+#
 # PRUEBA DE CONCEPTO ##
 
 La tarjeta escogida para llevar a cabo la explotación es la tarjeta de trasnporte público recargable Renfe&Tú. 
